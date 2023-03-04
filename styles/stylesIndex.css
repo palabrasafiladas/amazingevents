@@ -1,0 +1,17 @@
+
+/* cards secction */
+
+
+.container-cards{
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+   }
+/*
+  Section footer
+ */
+
+ .footer{
+    
+ }
