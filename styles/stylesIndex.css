@@ -10,9 +10,14 @@
 #nav-one{
   
   box-sizing: content-box;
-  padding: 20px;
+  padding: 10px 40px;
   background-image: linear-gradient(to right, #e4392a 35%, #ec407a 100%);
   color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+
 }
 a.nav-item::before {
 color: #ffffff !important ;
