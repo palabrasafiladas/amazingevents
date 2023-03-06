@@ -1,4 +1,3 @@
-# EDUCATION 
 
 
 ### <small><code>Amazing Events</code></small>  &#128293;
