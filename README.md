@@ -15,8 +15,9 @@ Para este proyecto se utilizaron las siguientes tecnologias:
 
 
 
-# EDUCATION 
+# Link de acceso a Deploy
 
+#https://palabrasafiladas.github.io/amazingevents/
 
 ### <small><code>Estudios en curso actualmente</code></small>  &#128293;
 Tecnicatura en programacion de las computadoras - Facultad de Ingenieria de Lomas de Zamora
