@@ -5,7 +5,23 @@
 
 
 .container-fluid{
-    padding: 15% 5%;
-    margin: 0px 15%;
-
+   max-width: 50%;
+   padding-top: 2%;
 }
+
+#button-form:hover{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-color: #e4392a;
+    border-color: #5c5858 !important; 
+    width:100px
+}
+
+
+.button-div{
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    padding-top: 2%;
+}
+
+

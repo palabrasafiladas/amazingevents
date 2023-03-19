@@ -7,7 +7,7 @@
   padding: 1%;
 
 }
-#nav-one{
+/* #nav-one{
   
   box-sizing: content-box;
   padding: 10px 40px;
@@ -38,7 +38,7 @@ color: #ffffff !important ;
 
 
 /* navTwo */
-.form-check{
+/* .form-check{
   margin:0px 3px;
   }
 
@@ -48,7 +48,7 @@ color: #ffffff !important ;
   
 }
 
-#navbar-checkbox
+#navbar-box-check
 {
   background: rgba(233,87,73,1);
   background: -moz-linear-gradient(left, rgba(233,87,73,1) 0%, rgba(233,87,73,1) 48%, rgba(239,97,145,1) 89%, rgba(239,97,145,1) 100%);
@@ -58,10 +58,10 @@ color: #ffffff !important ;
   background: -ms-linear-gradient(left, rgba(233,87,73,1) 0%, rgba(233,87,73,1) 48%, rgba(239,97,145,1) 89%, rgba(239,97,145,1) 100%);
   background: linear-gradient(to right, rgba(233,87,73,1) 0%, rgba(233,87,73,1) 48%, rgba(239,97,145,1) 89%, rgba(239,97,145,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e95749', endColorstr='#ef6191', GradientType=1 );
-}
+} */
 /* buttom-search */
 
-.btn-outline-success{
+/* .btn-outline-success{
   background-color: #ffffff;
   width: 100px;
   border-color: #515151;
@@ -76,7 +76,7 @@ color: #ffffff !important ;
 
 }
 
-
+ */ 
 
 
 
@@ -167,9 +167,9 @@ a.btn-primary:hover{
   Section footer
  */
 
-/* .footer {
+ .footer {
   padding-bottom: 0.1px;
-} */
+} 
 
 .footer-content {
   display: flex;
