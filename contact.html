@@ -19,12 +19,11 @@
   <label for="show-menu" class="show-menu">Show Menu</label>
   <input type="checkbox" id="show-menu" role="button">
 <ul class="navbar" id="menu">
-     <li class="navitem"><a href="#">About Me</a></li>
-    <li class="navitem"><a href="#">Home</a></li>
-    <li class="navitem"><a href="#">Upcoming Events</a></li>
-    <li class="navitem"><a href="#">Past Events</a></li>
-    <li class="navitem"><a href="#">Contact</a></li>
-    <li class="navitem home"><a href="#">Stats</a></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('')"><a href="http://">Home</a></button></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('about')"><a href="#">Upcoming Events</a></button></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('about')"><a href="#">Past Events</a></button></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('about')"><a href="#">Contacts</a></button></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('about')"><a href="#">Stats</a></button></li>
 </ul>
   <div class="container-fluid">
     <div class="mb-3">
@@ -66,6 +65,8 @@
   </footer>
 
 </body>
+<script src="./routes.js"></script>
+<script src="./router.js"></script>
 <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";

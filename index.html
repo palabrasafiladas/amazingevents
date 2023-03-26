@@ -17,12 +17,11 @@
   <label for="show-menu" class="show-menu">Show Menu</label>
   <input type="checkbox" id="show-menu" role="button">
 <ul class="navbar" id="menu">
-     <li class="navitem"><a href="#">About Me</a></li>
-    <li class="navitem"><a href="#">Home</a></li>
-    <li class="navitem"><a href="#">Upcoming Events</a></li>
-    <li class="navitem"><a href="#">Past Events</a></li>
-    <li class="navitem"><a href="#">Contact</a></li>
-    <li class="navitem home"><a href="#">Stats</a></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('')"><a href="http://">Home</a></button></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('about')"><a href="#">Upcoming Events</a></button></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('about')"><a href="#">Past Events</a></button></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('about')"><a href="#">Contacts</a></button></li>
+  <li class="navitem"><button class="navitem" onclick="router.loadRoute('about')"><a href="#">Stats</a></button></li>
 </ul>
   
   <div id="carouselExampleCaptions" class="carousel slide">
@@ -65,53 +64,8 @@
     </button>
   </div>
 
-  <!-- <nav id="navbar-box-check" class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-
-      <div class="navbar-collapse">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-            <label class="form-check-label" for="defaultCheck1">
-              Category
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-            <label class="form-check-label" for="defaultCheck1">
-              Category
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-            <label class="form-check-label" for="defaultCheck1">
-              Category
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-            <label class="form-check-label" for="defaultCheck1">
-              Category
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-            <label class="form-check-label" for="defaultCheck1">
-              Category
-            </label>
-          </div>
-
-
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <div class="buttom-search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </nav> -->
+  
+  
 
   <div class="container-cards">
     <div  class="card">
@@ -181,6 +135,9 @@
 </footer>
 
 </body>
+<script src="./routes.js"></script>
+<script src="./router.js"></script>
+
 <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
